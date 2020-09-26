@@ -6,10 +6,10 @@ input.onGesture(Gesture.Shake, function () {
     roll = randint(1, 6)
     if (roll == 1) {
         basic.showLeds(`
-            # . # . #
-            . # # # .
-            # # # # #
-            . # # # .
+            # . . . #
+            . . # . .
+            . . . # .
+            . . # . .
             # . # . #
             `)
     } else if (roll == 2) {
